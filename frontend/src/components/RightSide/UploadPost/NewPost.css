@@ -1,0 +1,56 @@
+.postForm{
+    display: flex;
+    flex-direction: row;
+    background: var(--cardColor);
+    border-radius: .75rem;
+    padding: 1.5rem 1.25rem;
+    width: 277px;
+    align-items: center;
+    position: relative;
+    border: 1px solid lightgrey;
+}
+.postForm>.input-post{
+    width: 8%;
+    opacity: 0;
+    z-index: 11;
+    
+}
+.postForm>svg{
+    font-size: 1.9rem;
+    color: #f9a225;
+    margin-bottom: .7rem;
+    position: absolute;
+    left:2rem;
+}
+.postForm>.input-caption{
+    margin-left: 1rem;
+}
+
+.postForm>img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2.3rem;
+    bottom: .5rem;
+    border-radius: 3px;
+}
+
+.postForm>.bn{
+    position: absolute;
+    bottom: .3rem;
+    left: 8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    background: var(--buttonBg);
+   
+}
+.postForm>.bn:hover{
+    cursor: pointer;
+    opacity: .9;
+  }
+
+

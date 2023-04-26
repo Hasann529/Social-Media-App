@@ -1,0 +1,102 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmax;
+    background: var(--cardColor);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid lightgrey;
+}
+
+.post>img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.postReact>svg {
+    font-size: 1.6rem;
+}
+
+.postReact>svg:hover {
+    cursor: pointer;
+}
+
+.post>.postReact>.black{
+    color: rgba(59, 57, 57,.35);
+    
+}
+.post>.postReact>.red{
+    color: red;
+}
+
+.post>span:nth-of-type(1) {
+    font-size: 1rem;
+    margin-left: .3rem;
+}
+
+.post>span:nth-of-type(2) {
+    font-size: 1.07rem;
+    margin-left: .3rem;
+}
+
+.customModal {
+    width: 600px;
+    height: 600px;
+    top: 2rem;
+    border-radius: 7px;
+}
+
+.customModal>h4 {
+    text-align: center;
+    color: #EF5757;
+}
+
+.customModal>div {
+    height: 72%;
+    max-height: 72%;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    overflow-y: auto;
+
+}
+
+.customModal>div>div {
+    display: flex;
+    gap: .3rem;
+}
+
+.customModal>div>div> :nth-child(1) {
+    width: 16%;
+}
+
+.customModal>div>div> :nth-child(2) {
+    width: 1%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.customModal>div>div> :nth-child(3) {
+    width: 80%;
+    font-size: .9rem;
+    letter-spacing: .3px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.customModal>div>div> :nth-child(4) {
+    width: 3%;
+}
+.customModal>div>div> :nth-child(4)>svg {
+    font-size: 1rem;
+    cursor: pointer;
+    color: red;
+}
+
+.customModal>form {
+    display: flex;
+    flex-direction: column;
+    width: 94.6%;
+    gap: .1rem;
+}

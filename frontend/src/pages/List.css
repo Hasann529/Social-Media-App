@@ -1,0 +1,29 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+  
+}
+
+.user>div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.userImg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 700;
+    font-size: .85rem;
+}
+.name:hover{
+    color: #e88428;
+}
+
+

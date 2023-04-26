@@ -1,0 +1,7 @@
+.home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 2.5rem;
+    height: 95vh;
+}

@@ -1,0 +1,170 @@
+.account{
+    min-height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    overflow: auto;
+}
+
+.profile{
+    background: var(--cardColor);
+    border-radius: 15px;
+    overflow-x: clip;
+    position: relative;
+    border: 1px solid lightgrey;
+}
+.profile>a{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 100;
+  color: white;
+
+}
+
+.profileImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileImages>img:nth-of-type(1){
+    width: 100%;
+    height: 175px;
+}
+.profileImages>img:nth-of-type(2)
+{
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+}
+.profileName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.75rem;
+    gap: 10px;
+}
+.profileName>span:nth-of-type(1)
+{
+    font-weight: bold;
+}
+.followStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .followStatus > hr {
+    width: 85%;
+    border: 1px solid var(--hrColor);
+  }
+  .followStatus > div {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .follow > span:nth-of-type(1) {
+    font-weight: bold;
+  }
+  
+  .follow > span:nth-of-type(2) {
+    color: #fd810d;
+    font-size: 13px;
+    transition: all .3s;
+  }
+  .follow > span:nth-of-type(2):hover {
+    cursor: pointer;
+  }
+  .vl {
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    border: 2px solid var(--buttonBg);
+    transform: all .1s;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .posts{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    min-height: 45vh;
+    background: var(--cardColor);
+    border-radius: 15px;
+     z-index: 11;
+     align-items: center;
+     gap: 1rem;
+     border: 1px solid lightgray;
+     padding-bottom: 1rem;
+  }
+  .posts>.row{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       gap: .5rem;
+  }
+
+  .post{
+    display: flex;
+    flex-direction: column;
+    gap: .5vmax;
+    background: var(--cardColor);
+    padding: .3rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.post>img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.post>a{
+ position: absolute;
+ right: .25rem;
+ bottom: .25rem;
+}
+.postReact>svg{
+    font-size: 1.6rem;
+}
+.postReact>svg:hover{
+    cursor: pointer;
+}
+.postReact>svg:nth-of-type(1){
+    font-size: 1.75rem;
+   margin-right: 1vmax;
+   color: red;
+}
+.post>span:nth-of-type(1){
+    font-size: 1rem;
+}
+.post>span:nth-of-type(2){
+    font-size: 1.07rem;
+}

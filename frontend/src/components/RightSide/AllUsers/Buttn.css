@@ -1,0 +1,23 @@
+.Follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    background: var(--buttonBg);
+    cursor: pointer;
+    margin-right: .5rem;
+  }
+  .Following{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-right: .5rem;
+    color: var(--orange);
+    background: transparent;
+    border: 1px solid var(--orange);
+ 
+  }

@@ -1,0 +1,49 @@
+.updateProfile{
+    min-height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.updateInfo{
+    background: var(--cardColor);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid lightgrey;
+    padding: 3rem;
+}
+.updateInfo > p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+form>input{
+    outline: none;
+    padding: .5rem;
+    border: none;
+   border-bottom: 1px solid gray;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+}
+.bn{
+    padding: .3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.delete{
+    color: red;
+    font-size: .8rem;
+    align-self: flex-end;
+    cursor: pointer;
+}

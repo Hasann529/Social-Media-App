@@ -1,0 +1,23 @@
+.updatePost{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update{
+    background: var(--cardColor);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid lightgrey;
+    padding: 3rem;
+}
+.update>form>img{
+  
+    border-radius: 7px;
+  
+}

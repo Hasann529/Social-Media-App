@@ -1,0 +1,35 @@
+.allusers{
+    width: 99%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    background-color: var(--cardColor);
+    min-height: 325px;
+    overflow: auto;
+    border: 1px solid lightgrey;
+    
+}
+.allusers>h3{
+  align-self: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.user{
+    display: flex;
+    
+}
+.name{
+    margin-top: 1rem;
+    
+}
+.userImg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}

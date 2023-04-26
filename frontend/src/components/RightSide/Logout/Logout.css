@@ -1,0 +1,18 @@
+.logout{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logout>p{
+    font-weight: 600;
+}
+
+.logout>svg{
+    font-size: 1.75rem;
+    color: red;
+    cursor: pointer;
+}
